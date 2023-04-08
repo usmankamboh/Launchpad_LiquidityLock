@@ -1,0 +1,48 @@
+1. SafuInvestmentInfo.sol 
+
+2. SafuInvestmentFactory.sol
+   -- address of SafuInvestmentInfo.sol
+
+3. SafuInvestmentPresale.sol
+   -- address of SafuInvestmentFactory.sol
+   -- address of setdev
+
+contracts verify and publish 
+1. in SafuInvestmentInfo.sol 
+   -- import ownable,context,SafuInvestmentInfo
+2. in SafuInvestmentFactory.sol
+   -- import whole files
+   -- in ABI VERIFICATION of contract SafuInvestmentFactory.sol
+       000000000000000000000000+(paste the contract address of 
+       SafuInvestmentFactory)
+3. in SafuInvestmentInfo.sol
+   -- import all files 
+
+In SafuInvestmentFactory.sol
+  -- Wrtiecontract paste tuples
+{"tokenAddress":"0xA7b2a4373Ce3782ac3575b3CC5dA566d40d61084",
+"unsoldTokensDumpAddress":"0x000000000000000000000000000000000000dEaD",
+"whitelistedAddresses":[],
+"tokenPriceInWei":"1000000000000000000",
+"hardCapInWei":"10000000000000000000,
+"softCapInWei":"100000000000000000",
+"maxInvestInWei":"100000000000000000",
+"minInvestInWei":"50000000000000000",
+"openTime":"1648563120",
+"closeTime":"1648563300"}
+
+{"listingPriceInWei":"1000000000000000000",
+"liquidityAddingTime":"1648563310",
+"lpTokensLockDurationInDays":"10",
+"liquidityPercentageAllocation":"70"}
+
+{"saleTitle":"0x4c61622070652061617469206861690000000000000000000000000000000000",
+"linkTelegram":"0x4c61622070652061617469206861692064756100000000000000000000000000",
+"linkDiscord":"0x4c6162207065206161746920686169206475612062616e000000000000000000",
+"linkTwitter":"0x4c6162207065206161746920686169206475612062616e206b00000000000000",
+"linkWebsite":"0x4c6162207065206161746920686169206475612062616e206b2074616d616e61"}
+
+In internaltransactions choose contractcreation 
+select and transfer token from metamasak
+then in contractcreation Wrtiecontract
+and invest,claimtokensinvestors,getrefundBNB etc.
